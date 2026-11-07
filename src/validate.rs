@@ -1,29 +1,25 @@
 //! Validates projects.json and ignored.json against their JSON Schemas, formats included.
 
-use crate::root;
+use crate::read_json;
+use anyhow::{anyhow, Result};
 use serde_json::Value;
 use std::process::ExitCode;
 
 const FILES: [(&str, &str); 2] = [("projects.json", "projects.schema.json"), ("ignored.json", "ignored.schema.json")];
 
-fn read(name: &str) -> Result<Value, String> {
-    let text = std::fs::read_to_string(root().join(name)).map_err(|e| format!("{name}: {e}"))?;
-    serde_json::from_str(&text).map_err(|e| format!("{name}: {e}"))
-}
-
-pub fn run() -> Result<ExitCode, String> {
+pub fn run() -> Result<ExitCode> {
     let mut valid = true;
     for (file, schema) in FILES {
-        let validator = jsonschema::options().should_validate_formats(true).build(&read(schema)?).map_err(|e| format!("{schema}: {e}"))?;
-        let instance = read(file)?;
-        let errors: Vec<String> = validator.iter_errors(&instance).map(|e| format!("{file}{}: {e}", e.instance_path())).collect();
-        if errors.is_empty() {
+        let validator = jsonschema::options().should_validate_formats(true).build(&read_json::<Value>(schema)?).map_err(|e| anyhow!("{schema}: {e}"))?;
+        let instance: Value = read_json(file)?;
+        let mut errors = validator.iter_errors(&instance).peekable();
+        if errors.peek().is_none() {
             println!("{file} is valid.");
-        } else {
-            valid = false;
-            for error in errors {
-                eprintln!("{error}");
-            }
+            continue;
+        }
+        valid = false;
+        for error in errors {
+            eprintln!("{file}{}: {error}", error.instance_path());
         }
     }
     Ok(if valid { ExitCode::SUCCESS } else { ExitCode::FAILURE })

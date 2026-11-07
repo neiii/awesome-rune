@@ -7,7 +7,9 @@ mod readme;
 mod sort;
 mod validate;
 
+use anyhow::{Context, Result};
 use clap::{Parser, Subcommand};
+use serde::de::DeserializeOwned;
 use std::path::{Path, PathBuf};
 use std::process::ExitCode;
 use std::sync::OnceLock;
@@ -21,6 +23,16 @@ pub fn root() -> &'static Path {
         let cwd = std::env::current_dir().unwrap_or_else(|_| PathBuf::from("."));
         cwd.ancestors().find(|dir| dir.join("projects.json").is_file()).map(Path::to_path_buf).unwrap_or(cwd)
     })
+}
+
+/// A file under the repository root, as text.
+pub fn read(name: &str) -> Result<String> {
+    std::fs::read_to_string(root().join(name)).with_context(|| format!("reading {name}"))
+}
+
+/// A JSON file under the repository root.
+pub fn read_json<T: DeserializeOwned>(name: &str) -> Result<T> {
+    serde_json::from_str(&read(name)?).with_context(|| format!("parsing {name}"))
 }
 
 /// GITHUB_TOKEN from the environment or a local `.env`.
@@ -67,11 +79,8 @@ fn main() -> ExitCode {
         Command::Validate => validate::run(),
         Command::Discover { output } => discover::run(output),
     };
-    match result {
-        Ok(code) => code,
-        Err(error) => {
-            eprintln!("error: {error}");
-            ExitCode::FAILURE
-        }
-    }
+    result.unwrap_or_else(|error| {
+        eprintln!("error: {error:#}");
+        ExitCode::FAILURE
+    })
 }
