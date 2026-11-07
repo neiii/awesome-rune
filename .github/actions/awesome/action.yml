@@ -1,0 +1,28 @@
+name: Set up awesome
+description: >-
+  Puts the `awesome` tool on PATH. The compiled binary is cached under a hash of its source, so
+  runs restore it in seconds and only the first run after a change to the tool installs Rust and
+  builds it.
+
+runs:
+  using: composite
+  steps:
+    - name: Restore the prebuilt binary
+      id: cache
+      uses: actions/cache@v4
+      with:
+        path: target/release/awesome
+        key: awesome-${{ runner.os }}-${{ hashFiles('Cargo.toml', 'Cargo.lock', 'src/**') }}
+
+    - name: Install Rust
+      if: steps.cache.outputs.cache-hit != 'true'
+      uses: dtolnay/rust-toolchain@stable
+
+    - name: Build awesome
+      if: steps.cache.outputs.cache-hit != 'true'
+      shell: bash
+      run: cargo build --release --locked
+
+    - name: Add awesome to PATH
+      shell: bash
+      run: echo "$GITHUB_WORKSPACE/target/release" >> "$GITHUB_PATH"

@@ -15,6 +15,7 @@ on:
       - src/**
       - README.template.md
       - assets/**
+      - .github/actions/awesome/**
       - .github/workflows/update-readme.yml
 
 permissions:
@@ -40,11 +41,8 @@ jobs:
         with:
           ref: main
 
-      - name: Install Rust
-        uses: dtolnay/rust-toolchain@stable
-
-      - name: Cache the build
-        uses: Swatinem/rust-cache@v2
+      - name: Set up awesome
+        uses: ./.github/actions/awesome
 
       - name: Generate and publish README
         env:
@@ -72,8 +70,8 @@ jobs:
             # commit and regenerate instead of rebasing generated Markdown.
             git reset --hard origin/main
             base=$(git rev-parse HEAD)
-            cargo run --release --quiet -- validate
-            cargo run --release --quiet -- readme
+            awesome validate
+            awesome readme
             if git diff --quiet -- README.md; then
               echo "README.md is already current."
               exit 0

@@ -10,10 +10,17 @@ mod validate;
 use clap::{Parser, Subcommand};
 use std::path::{Path, PathBuf};
 use std::process::ExitCode;
+use std::sync::OnceLock;
 
-/// The repository root, where projects.json and the README live.
+/// The repository root, where projects.json and the README live: the nearest directory at or
+/// above the working directory that has a projects.json. Found at run time, so a prebuilt binary
+/// works from any checkout.
 pub fn root() -> &'static Path {
-    Path::new(env!("CARGO_MANIFEST_DIR"))
+    static ROOT: OnceLock<PathBuf> = OnceLock::new();
+    ROOT.get_or_init(|| {
+        let cwd = std::env::current_dir().unwrap_or_else(|_| PathBuf::from("."));
+        cwd.ancestors().find(|dir| dir.join("projects.json").is_file()).map(Path::to_path_buf).unwrap_or(cwd)
+    })
 }
 
 /// GITHUB_TOKEN from the environment or a local `.env`.
