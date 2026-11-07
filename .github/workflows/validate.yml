@@ -13,8 +13,11 @@ on:
       - Cargo.toml
       - Cargo.lock
       - src/**
+      - README.template.md
+      - assets/**
       - .github/actions/awesome/**
       - .github/workflows/validate.yml
+      - .github/workflows/update-readme.yml
 
 permissions:
   contents: read

@@ -4,19 +4,13 @@ on:
   schedule:
     - cron: "17 8 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - projects.json
-      - projects.schema.json
-      - Cargo.toml
-      - Cargo.lock
-      - src/**
-      - README.template.md
-      - assets/**
-      - .github/actions/awesome/**
-      - .github/workflows/update-readme.yml
+  # Runs after Validate passes on a push to main rather than alongside it: Validate builds and
+  # caches the awesome binary when the tool changes, and this run restores it instead of
+  # building it a second time in parallel. Validate's push paths cover every input here.
+  workflow_run:
+    workflows: [Validate]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: write
@@ -28,12 +22,16 @@ concurrency:
 
 jobs:
   update-readme:
-    # Forks maintain project data only; README publication belongs to upstream.
-    if: github.repository == 'neiii/awesome-rune'
+    # Forks maintain project data only; README publication belongs to upstream. A pull request
+    # whose branch happens to be called main also completes Validate, so require a push.
+    if: >-
+      github.repository == 'neiii/awesome-rune' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push'))
     runs-on: ubuntu-latest
     steps:
       - name: Wait for more merges
-        if: github.event_name == 'push'
+        if: github.event_name == 'workflow_run'
         run: sleep 60
 
       - name: Check out repository
