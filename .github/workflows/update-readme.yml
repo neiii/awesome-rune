@@ -10,10 +10,10 @@ on:
     paths:
       - projects.json
       - projects.schema.json
-      - pyproject.toml
-      - uv.lock
+      - Cargo.toml
+      - Cargo.lock
+      - src/**
       - README.template.md
-      - scripts/generate_readme.py
       - assets/**
       - .github/workflows/update-readme.yml
 
@@ -40,8 +40,11 @@ jobs:
         with:
           ref: main
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache the build
+        uses: Swatinem/rust-cache@v2
 
       - name: Generate and publish README
         env:
@@ -69,8 +72,8 @@ jobs:
             # commit and regenerate instead of rebasing generated Markdown.
             git reset --hard origin/main
             base=$(git rev-parse HEAD)
-            uv run check-jsonschema --schemafile projects.schema.json projects.json
-            uv run scripts/generate_readme.py
+            cargo run --release --quiet -- validate
+            cargo run --release --quiet -- readme
             if git diff --quiet -- README.md; then
               echo "README.md is already current."
               exit 0

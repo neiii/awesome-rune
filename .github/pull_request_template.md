@@ -4,6 +4,6 @@
 - [ ] I validated and sorted the project data.
 
 ```sh
-uv run check-jsonschema --schemafile projects.schema.json projects.json
-uv run scripts/sort_projects.py --check
+cargo run --quiet -- validate
+cargo run --quiet -- sort --check
 ```

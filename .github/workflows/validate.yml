@@ -10,9 +10,9 @@ on:
       - projects.schema.json
       - ignored.json
       - ignored.schema.json
-      - pyproject.toml
-      - uv.lock
-      - scripts/sort_projects.py
+      - Cargo.toml
+      - Cargo.lock
+      - src/**
       - .github/workflows/validate.yml
 
 permissions:
@@ -36,14 +36,14 @@ jobs:
             exit 1
           fi
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
 
-      - name: Validate project data
-        run: uv run check-jsonschema --schemafile projects.schema.json projects.json
+      - name: Cache the build
+        uses: Swatinem/rust-cache@v2
 
-      - name: Validate ignored repositories
-        run: uv run check-jsonschema --schemafile ignored.schema.json ignored.json
+      - name: Validate projects.json and ignored.json
+        run: cargo run --release --quiet -- validate
 
       - name: Check project ordering
-        run: uv run scripts/sort_projects.py --check
+        run: cargo run --release --quiet -- sort --check

@@ -21,15 +21,18 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache the build
+        uses: Swatinem/rust-cache@v2
 
       - name: Search for repositories that depend on Rune
         id: search
         env:
           # The workflow token can search code across all public repositories.
           GITHUB_TOKEN: ${{ github.token }}
-        run: uv run scripts/discover_projects.py --output candidates.md
+        run: cargo run --release --quiet -- discover --output candidates.md
 
       - name: Update the discovery issue
         env:
