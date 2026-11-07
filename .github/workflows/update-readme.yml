@@ -14,6 +14,7 @@ on:
       - uv.lock
       - README.template.md
       - scripts/generate_readme.py
+      - assets/**
       - .github/workflows/update-readme.yml
 
 permissions:
@@ -46,8 +47,22 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Charts change every day, so they live on an orphan `assets` branch that is replaced
+          # wholesale instead of accumulating history on main. Publish them before the README
+          # that links them; chart URLs carry a content hash, so an unchanged README means
+          # unchanged charts.
+          publish_charts() {
+            rm -rf build/assets-branch
+            mkdir -p build/assets-branch/charts
+            cp build/charts/*.png build/assets-branch/charts/
+            git -C build/assets-branch init --quiet --initial-branch=assets
+            git -C build/assets-branch add --all
+            git -C build/assets-branch commit --quiet -m "Activity charts"
+            git -C build/assets-branch push --quiet --force \
+              "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" assets
+          }
           for attempt in 1 2 3; do
             git fetch origin main
             # This disposable runner owns its checkout. Discard any stale generated
@@ -60,6 +75,7 @@ jobs:
               echo "README.md is already current."
               exit 0
             fi
+            publish_charts
             git add README.md
             git commit -m "Update README.md"
             if git push origin HEAD:main; then

@@ -26,7 +26,7 @@ uv run check-jsonschema --schemafile projects.schema.json projects.json
 uv run check-jsonschema --schemafile ignored.schema.json ignored.json
 uv run scripts/sort_projects.py
 uv run scripts/sort_projects.py --check
-uv run scripts/generate_readme.py
+GITHUB_TOKEN=$(gh auth token) uv run scripts/generate_readme.py
 ```
 
-Review the generated `README.md` locally, confirm metadata changes are expected, then run `git restore README.md` before committing. The post-merge workflow updates it. Confirm sorting changed only placement and GitHub redirects use canonical URLs. Never commit `.env` or generated Python bytecode.
+Review the generated `README.md` locally, confirm metadata changes are expected, then run `git restore README.md` before committing. Activity charts need the token (GraphQL); they are written to the ignored `build/charts` and published by the workflow to the `assets` branch. The star and bar art in `assets/stars` and `assets/bars` comes from `tools/badges/render.sh`; re-render it only when the look changes. The post-merge workflow updates it. Confirm sorting changed only placement and GitHub redirects use canonical URLs. Never commit `.env` or generated Python bytecode.

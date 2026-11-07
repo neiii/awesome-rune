@@ -1,0 +1,78 @@
+diff --git a/crates/rune-fx/src/pack.rs b/crates/rune-fx/src/pack.rs
+index adfdb046..91a83ffa 100644
+--- a/crates/rune-fx/src/pack.rs
++++ b/crates/rune-fx/src/pack.rs
+@@ -115,7 +115,8 @@ impl FxLayer {
+         let r = s.rect;
+         let mut i = InstRaw {
+             rect: r.xywh(),
+-            shape: [s.radius.min(r.w * 0.5).min(r.h * 0.5).max(0.0), 1.0, self.opacity.min(1.0), 0.0],
++            // A negative radius asks for a five-point star (its magnitude rounds the points), sent as shape.w < 0.
++            shape: [s.radius.min(r.w * 0.5).min(r.h * 0.5).max(0.0), 1.0, self.opacity.min(1.0), if s.radius < 0.0 { s.radius - 1.0 } else { 0.0 }],
+             bounds: [0.0; 4],
+             c0: [0.0; 4],
+             c1: [0.0; 4],
+diff --git a/crates/rune-fx/src/shaders/common.wgsl b/crates/rune-fx/src/shaders/common.wgsl
+index 9730edff..bda49de0 100644
+--- a/crates/rune-fx/src/shaders/common.wgsl
++++ b/crates/rune-fx/src/shaders/common.wgsl
+@@ -216,6 +216,30 @@ fn fbm5(p0: vec2f, seed: u32) -> f32 {
+ fn ign(px: vec2f) -> f32 { return fract(52.9829189 * fract(dot(floor(px), vec2f(0.06711056, 0.00583715)))); }
+ 
+ // ---------- shapes ----------
++// A five-point star (point up) fitted and centred in `half`, its points rounded by `k` pt (after
++// Inigo Quilez's sdStar5; the inner radius sits at `rf` of the outer).
++fn sd_star(q: vec2f, half: vec2f, k: f32) -> f32 {
++    let rf = 0.47;
++    // Leave half a pt for antialiasing round the tips, which reach the box's edges.
++    let ro = min((half.y - 0.5) / 0.9045, (half.x - 0.5) / 0.9511);
++    let r = max(ro - k * 1.6, 1.0);
++    let k1 = vec2f(0.809016994375, -0.587785252292);
++    let k2 = vec2f(-k1.x, k1.y);
++    // y up; the bottom points sit 0.809 ro below centre and the top one ro above, so move the
++    // star down by half the difference to centre its box.
++    var p = vec2f(abs(q.x), -q.y + 0.0955 * ro);
++    p -= 2.0 * max(dot(k1, p), 0.0) * k1;
++    p -= 2.0 * max(dot(k2, p), 0.0) * k2;
++    p.x = abs(p.x);
++    p.y -= r;
++    let ba = rf * vec2f(-k1.y, k1.x) - vec2f(0.0, 1.0);
++    let h = clamp(dot(p, ba) / dot(ba, ba), 0.0, r);
++    return length(p - ba * h) * sign(p.y * ba.x - p.x * ba.y) - k;
++}
++fn sd_node(c: Ctx, q: vec2f) -> f32 {
++    if (c.star >= 0.0) { return sd_star(q, c.half, c.star); }
++    return sd_rrect(q, c.half, c.r);
++}
+ fn sd_rrect(q: vec2f, half: vec2f, r: f32) -> f32 {
+     let rr = clamp(r, 0.0, min(half.x, half.y));
+     let k = abs(q) - half + rr;
+@@ -263,6 +287,7 @@ struct Ctx {
+     seed: u32,
+     variant: i32,
+     reduced: bool,
++    star: f32,     // < 0: the node's rounded rect; >= 0: a five-point star rounded by this many pt
+ }
+ fn ctx(i: Inst, px: vec2f) -> Ctx {
+     var c: Ctx;
+@@ -273,7 +298,8 @@ fn ctx(i: Inst, px: vec2f) -> Ctx {
+     c.q = (px - c.c * c.scale) / c.scale;
+     c.r = i.shape.x;
+     c.aa = 1.0 / c.scale;
+-    c.d = sd_rrect(c.q, c.half, c.r);
++    c.star = select(-1.0, -i.shape.w - 1.0, i.shape.w < 0.0);
++    c.d = sd_node(c, c.q);
+     c.t = i.t.x;
+     c.seed = u32(i.t.y);
+     c.variant = i32(i.t.z + 0.5);
+@@ -282,8 +308,8 @@ fn ctx(i: Inst, px: vec2f) -> Ctx {
+ }
+ fn sd_grad(c: Ctx) -> vec2f {
+     let e = 0.35;
+-    let dx = sd_rrect(c.q + vec2f(e, 0.0), c.half, c.r) - sd_rrect(c.q - vec2f(e, 0.0), c.half, c.r);
+-    let dy = sd_rrect(c.q + vec2f(0.0, e), c.half, c.r) - sd_rrect(c.q - vec2f(0.0, e), c.half, c.r);
++    let dx = sd_node(c, c.q + vec2f(e, 0.0)) - sd_node(c, c.q - vec2f(e, 0.0));
++    let dy = sd_node(c, c.q + vec2f(0.0, e)) - sd_node(c, c.q - vec2f(0.0, e));
+     let gv = vec2f(dx, dy);
+     return gv / max(length(gv), 1e-5);
+ }
