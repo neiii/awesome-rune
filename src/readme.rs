@@ -1,7 +1,8 @@
 //! Generates README.md and the activity charts from projects.json and current GitHub metadata.
 //!
 //! Each project gets a card: its icon, a plastic star badge for its tier, a bar chart of commits
-//! per day over the last 28 days and its latest release. The badge art is rendered once by
+//! per day over the last 28 days and its latest release with how long ago it shipped (the
+//! workflow regenerates daily, so the age is at most a day stale). The badge art is rendered once by
 //! tools/badges; this only assembles charts from those sprites, so it needs no GPU.
 //!
 //! Charts are written to build/charts and published by the workflow to the `assets` branch.
@@ -65,8 +66,13 @@ struct Meta {
     stars: Option<u64>,
     /// Commits per day, oldest first.
     days: Option<Vec<u64>>,
-    /// The latest release's tag.
-    release: Option<String>,
+    release: Option<Release>,
+}
+
+#[derive(Deserialize)]
+struct Release {
+    tag_name: String,
+    published_at: Option<DateTime<Utc>>,
 }
 
 struct Card<'a> {
@@ -115,14 +121,9 @@ fn daily_commits(github: &GitHub, target: &Target, branch: &str) -> Result<Vec<u
     (0..DAYS).map(|day| counts.get(&format!("d{day}")).map(|h| h.total_count).context("missing day")).collect()
 }
 
-fn latest_release(github: &GitHub, target: &Target) -> Result<Option<String>> {
-    #[derive(Deserialize)]
-    struct Release {
-        tag_name: String,
-    }
+fn latest_release(github: &GitHub, target: &Target) -> Result<Option<Release>> {
     let (owner, name) = target.repository.split_once('/').unwrap_or_default();
-    let release = github::optional(github.get::<Release>(&GitHub::url(&["repos", owner, name, "releases", "latest"], &[])))?;
-    Ok(release.map(|r| r.tag_name))
+    github::optional(github.get(&GitHub::url(&["repos", owner, name, "releases", "latest"], &[])))
 }
 
 /// One project's card data, and any warnings about what couldn't be fetched.
@@ -262,6 +263,14 @@ fn icon_url(project: &Project) -> String {
     }
 }
 
+/// "today", "1d ago", "12d ago".
+fn age(time: DateTime<Utc>) -> String {
+    match (Utc::now() - time).num_days().max(0) {
+        0 => "today".into(),
+        days => format!("{days}d ago"),
+    }
+}
+
 fn star_tier(stars: u64) -> &'static str {
     STAR_TIERS.iter().rev().find(|(minimum, _)| stars >= *minimum).map_or("gunmetal", |(_, name)| name)
 }
@@ -280,8 +289,9 @@ fn card(Card { project, meta, chart }: &Card, icon_size: u32) -> String {
     if let Some(chart) = chart {
         lines.push(format!(r#"<img src="{}" height="32" alt="Commits per day over the last {DAYS} days">"#, escape(chart)));
     }
-    if let Some(tag) = &meta.release {
-        lines.push(format!("<sub><code>{}</code></sub>", escape(tag)));
+    if let Some(release) = &meta.release {
+        let age = release.published_at.map(|t| format!(" {}", age(t))).unwrap_or_default();
+        lines.push(format!("<sub><code>{}</code>{age}</sub>", escape(&release.tag_name)));
     }
     lines.push(format!("<sub>{}</sub>", escape(&project.description)));
     format!("<td align=\"center\" valign=\"top\" width=\"33%\">\n{}\n</td>", lines.join("<br>\n"))
