@@ -145,6 +145,14 @@
       "description": "A native streaming app for movies and TV, with Stremio add-on support and a built-in player."
     },
     {
+      "name": "Spotseek",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/lopezlav/spotseek/tree/main/ui",
+      "image": "https://raw.githubusercontent.com/lopezlav/spotseek/main/Icon.png",
+      "description": "Desktop app that downloads Spotify playlists, albums and tracks as mp3 from Soulseek, with YouTube Music for the gaps and a local service for Mixxx progressive playback."
+    },
+    {
       "name": "stremio-rune",
       "category": "Apps",
       "subcategory": "Media",
