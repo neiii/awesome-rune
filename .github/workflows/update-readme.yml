@@ -15,7 +15,7 @@ on:
 permissions:
   contents: write
 
-# A newer trigger supersedes older generation, including the debounce delay.
+# A newer trigger supersedes older generation.
 concurrency:
   group: update-readme
   cancel-in-progress: true
@@ -30,10 +30,6 @@ jobs:
        (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push'))
     runs-on: ubuntu-latest
     steps:
-      - name: Wait for more merges
-        if: github.event_name == 'workflow_run'
-        run: sleep 60
-
       - name: Check out repository
         uses: actions/checkout@v4
         with:
