@@ -78,6 +78,13 @@
       "description": "Native macOS menu bar dictation: tap a chord, speak, and the transcript is pasted in about a second."
     },
     {
+      "name": "Muninn",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/raythurman2386/muninn",
+      "description": "A local-first Markdown notes app with wikilinks, a graph view and Omarchy theming."
+    },
+    {
       "name": "rusty-pencil",
       "category": "Apps",
       "subcategory": "Productivity",
@@ -143,6 +150,13 @@
       "url": "https://github.com/maharshi365/scry",
       "image": "https://raw.githubusercontent.com/maharshi365/scry/master/crates/scry-app/assets/scry.svg",
       "description": "A native streaming app for movies and TV, with Stremio add-on support and a built-in player."
+    },
+    {
+      "name": "Sleeve",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/alii/sleeve",
+      "description": "Fast DJ USB export software for a rekordbox library, a Rekordbox alternative."
     },
     {
       "name": "Spotseek",
@@ -232,6 +246,13 @@
       "subcategory": "System Utilities",
       "url": "https://github.com/kamal0620040/storix",
       "description": "A fast, native disk cleanup app for Windows: see where the space went, review recommendations and uninstall apps."
+    },
+    {
+      "name": "Yozora",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/ArunPrakashG/yozora/tree/main/shell",
+      "description": "Alpha desktop shell for Hyprland built with Rune."
     },
     {
       "name": "Runesweeper",
