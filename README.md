@@ -61,6 +61,14 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <sub>Native UI for agent-usage: sessions, tokens and API cost summed across every installed coding harness, per harness and per model.</sub>
 </td>
 <td align="center" valign="top" width="33%">
+<a href="https://github.com/abrudtkuhl/calmtoad"><img src="https://raw.githubusercontent.com/abrudtkuhl/calmtoad/main/assets/toad-app-icon.png" width="56" height="56" alt=""></a><br>
+<a href="https://github.com/abrudtkuhl/calmtoad"><b>Calm Toad</b></a><br>
+<img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="1 stars"> <b>1</b><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/calm-toad.png?v=4e28c832e9b2" height="32" alt="Commits per day over the last 28 days"><br>
+<sub><code>v0.1.0</code> 1d ago</sub><br>
+<sub>A desktop website crawler for SEO audits of one host&#x27;s titles, meta descriptions, headings, response codes, canonicals, images and links.</sub>
+</td>
+<td align="center" valign="top" width="33%">
 <a href="https://github.com/no-phux/phux/tree/main/clients/rune"><img src="https://raw.githubusercontent.com/no-phux/phux/main/docs/assets/fox-mark.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/no-phux/phux/tree/main/clients/rune"><b>phux</b></a><br>
 <img src="assets/stars/star-rose.png" height="32" align="middle" alt="22 stars"> <b>22</b><br>
@@ -68,6 +76,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <sub><code>v0.138.0</code> today</sub><br>
 <sub>Alpha desktop client for phux, a terminal multiplexer whose server you can drive from code and that tracks which panes run a coding agent.</sub>
 </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/mweinbach/prime-agent-ui"><img src="https://github.com/mweinbach.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/mweinbach/prime-agent-ui"><b>Prime Agent Desktop</b></a><br>
@@ -76,8 +86,6 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <sub><code>desktop-v0.11.0</code> 4d ago</sub><br>
 <sub>Unofficial desktop client for Prime Agent that shares the CLI&#x27;s daemon, saved chats and provider credentials.</sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/shuv1337/rex-rune"><img src="https://raw.githubusercontent.com/shuv1337/rex-rune/master/resources/icons/128x128/apps/dev.shuv.rex-linux.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/shuv1337/rex-rune"><b>Rex for Linux</b></a><br>
