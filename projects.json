@@ -144,6 +144,14 @@
       "description": "Code-first motion graphics: a small Rust program describes a scene, rendered as 1080p60 video with motion blur or played as an interactive presentation."
     },
     {
+      "name": "Runefin",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/lifk/Runefin",
+      "image": "https://raw.githubusercontent.com/lifk/Runefin/main/Assets/Icon.png",
+      "description": "Unofficial Jellyfin client with a desktop and a 10-foot TV layout, a zero-copy GStreamer player and Live TV."
+    },
+    {
       "name": "Scry",
       "category": "Apps",
       "subcategory": "Media",
