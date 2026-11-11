@@ -9,6 +9,14 @@
       "description": "Native UI for agent-usage: sessions, tokens and API cost summed across every installed coding harness, per harness and per model."
     },
     {
+      "name": "Calm Toad",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/abrudtkuhl/calmtoad",
+      "image": "https://raw.githubusercontent.com/abrudtkuhl/calmtoad/main/assets/toad-app-icon.png",
+      "description": "A desktop website crawler for SEO audits of one host's titles, meta descriptions, headings, response codes, canonicals, images and links."
+    },
+    {
       "name": "phux",
       "category": "Apps",
       "subcategory": "Developer Tools",
