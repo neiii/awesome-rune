@@ -217,7 +217,7 @@
       "category": "Apps",
       "subcategory": "System Utilities",
       "url": "https://github.com/nonlog/Conduit/tree/master/windows/conduit-rune",
-      "image": "https://raw.githubusercontent.com/nonlog/Conduit/master/windows/conduit-ui/Assets/conduit-icon.png",
+      "image": "https://raw.githubusercontent.com/nonlog/Conduit/master/windows/conduit-daemon/assets/conduit-icon.png",
       "description": "A small Android ↔ Windows companion for clipboard sync, notifications, file transfer and photo capture toasts."
     },
     {
@@ -232,21 +232,7 @@
       "category": "Apps",
       "subcategory": "System Utilities",
       "url": "https://github.com/anomalyco/hokum",
-      "description": "Notifications for Wayland that look like they belong on a computer from this decade."
-    },
-    {
-      "name": "Hokum Bluetooth",
-      "category": "Apps",
-      "subcategory": "System Utilities",
-      "url": "https://github.com/anomalyco/hokum-bluetooth",
-      "description": "Bluetooth manager for Linux."
-    },
-    {
-      "name": "Hokum Sound",
-      "category": "Apps",
-      "subcategory": "System Utilities",
-      "url": "https://github.com/anomalyco/hokum-sound",
-      "description": "Audio control for Linux."
+      "description": "A Wayland control center for notifications, sound and Bluetooth, drawn with Rune."
     },
     {
       "name": "Mojito",
