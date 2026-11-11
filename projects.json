@@ -55,6 +55,13 @@
       "description": "A decentralized password manager: devices sync directly over iroh and join by pairing, with no accounts or servers."
     },
     {
+      "name": "EchoSpot",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/adityavardhansharma/EchoSpot",
+      "description": "A native command palette for Hyprland and Omarchy, a Raycast alternative for Linux."
+    },
+    {
       "name": "Grim",
       "category": "Apps",
       "subcategory": "Productivity",
