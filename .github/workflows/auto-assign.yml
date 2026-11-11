@@ -1,0 +1,25 @@
+name: Auto-assign
+
+on:
+  # pull_request_target gives forks a token that can write assignees.
+  # This workflow never checks out or runs PR code.
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - ready_for_review
+
+permissions:
+  pull-requests: write
+
+jobs:
+  assign:
+    name: Assign maintainer
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign neiii
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: gh pr edit "$PR_NUMBER" --add-assignee neiii
