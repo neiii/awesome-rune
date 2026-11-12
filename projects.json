@@ -32,6 +32,14 @@
       "description": "Unofficial desktop client for Prime Agent that shares the CLI's daemon, saved chats and provider credentials."
     },
     {
+      "name": "Prism",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/gooonzick/prism",
+      "image": "https://raw.githubusercontent.com/gooonzick/prism/main/assets/icon.svg",
+      "description": "A native macOS and Linux app, plus the prism CLI, that manages agent skills and MCP servers across Claude Code, Cursor, Codex and other agents, including on machines reached over ssh."
+    },
+    {
       "name": "Rex for Linux",
       "category": "Apps",
       "subcategory": "Developer Tools",
@@ -150,6 +158,14 @@
       "subcategory": "Media",
       "url": "https://github.com/Brendonovich/futhark",
       "description": "A TouchDesigner-style realtime node-based visual programming environment."
+    },
+    {
+      "name": "Nightjar",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/mustafa89/nightjar",
+      "image": "https://raw.githubusercontent.com/mustafa89/nightjar/main/assets/icon.png",
+      "description": "A skinnable macOS music player with live shader visualizers that plays local files and YouTube Music."
     },
     {
       "name": "Psychopomp",
