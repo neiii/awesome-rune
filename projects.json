@@ -17,6 +17,14 @@
       "description": "A desktop website crawler for SEO audits of one host's titles, meta descriptions, headings, response codes, canonicals, images and links."
     },
     {
+      "name": "Moonframe",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/moonframehq/moonframe",
+      "image": "https://raw.githubusercontent.com/moonframehq/moonframe/main/assets/icon.png",
+      "description": "A native desktop app factory for malleable Rust and Luau apps that you or an agent reshape while they run, drawn with GPUI in releases and with an experimental Rune renderer from source."
+    },
+    {
       "name": "phux",
       "category": "Apps",
       "subcategory": "Developer Tools",
@@ -106,6 +114,14 @@
       "subcategory": "Productivity",
       "url": "https://github.com/raythurman2386/muninn",
       "description": "A local-first Markdown notes app with wikilinks, a graph view and Omarchy theming."
+    },
+    {
+      "name": "Quire",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/bjarneo/quire/tree/main/desktop",
+      "image": "https://raw.githubusercontent.com/bjarneo/quire/main/assets/brand/mark.svg",
+      "description": "A note editor for a plain folder of Markdown files, with a Rune desktop app and an Android app."
     },
     {
       "name": "rusty-pencil",
@@ -219,6 +235,14 @@
       "subcategory": "Media",
       "url": "https://github.com/threehymns/vidshow",
       "description": "Show a video to a room: one window holds the controls, and a borderless presenter window covers the display you choose. Decodes with ffmpeg."
+    },
+    {
+      "name": "Wholeseek",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/Utility-Gods/wholeseek",
+      "image": "https://raw.githubusercontent.com/Utility-Gods/wholeseek/main/assets/wholeseek.svg",
+      "description": "A native Linux Soulseek client that plays a track while it downloads, and saves the file only if you keep it."
     },
     {
       "name": "Cloud Drive Mount",
