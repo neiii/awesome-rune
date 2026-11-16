@@ -17,6 +17,13 @@
       "description": "A desktop website crawler for SEO audits of one host's titles, meta descriptions, headings, response codes, canonicals, images and links."
     },
     {
+      "name": "Jev Inspector",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/diegoag64/jev-inspector",
+      "description": "An experimental native macOS and Windows inspector that runs a local relay in front of TypeSafe API traffic to inspect requests, responses and Jev answers."
+    },
+    {
       "name": "Moonframe",
       "category": "Apps",
       "subcategory": "Developer Tools",
@@ -114,6 +121,14 @@
       "subcategory": "Productivity",
       "url": "https://github.com/raythurman2386/muninn",
       "description": "A local-first Markdown notes app with wikilinks, a graph view and Omarchy theming."
+    },
+    {
+      "name": "Polish",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/cris7ian/polish",
+      "image": "https://raw.githubusercontent.com/cris7ian/polish/main/assets/polish-logo.svg",
+      "description": "A small macOS writing app: select text, click a button, and an OpenAI model tidies it. Installs via Homebrew (cris7ian/tap/polish)."
     },
     {
       "name": "Quire",
@@ -273,6 +288,14 @@
       "subcategory": "System Utilities",
       "url": "https://github.com/anomalyco/hokum",
       "description": "A Wayland control center for notifications, sound and Bluetooth, drawn with Rune."
+    },
+    {
+      "name": "Lyre",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/ItsPotatoTime/Lyre/tree/main/rune-ui",
+      "image": "https://raw.githubusercontent.com/ItsPotatoTime/Lyre/main/packaging/icons/icon.png",
+      "description": "A file manager styled like Windows 11 Explorer for Linux and Windows."
     },
     {
       "name": "Mojito",
