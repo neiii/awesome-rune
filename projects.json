@@ -260,6 +260,21 @@
       "description": "A native Linux Soulseek client that plays a track while it downloads, and saves the file only if you keep it."
     },
     {
+      "name": "Airbend",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/nommyt/airbend",
+      "image": "https://raw.githubusercontent.com/nommyt/airbend/main/dist/airbend.svg",
+      "description": "Linux fan control with custom temperature curves, calibration, NVIDIA GPU fans, Quiet and Performance tray profiles, and Omarchy themes."
+    },
+    {
+      "name": "Cirrus Drive",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/ZanzyTHEbar/cirrus-drive/tree/main/crates/cirrus-ui",
+      "description": "An early alpha, filesystem-first OpenCloud client for Linux: a daemon mounts Spaces over FUSE, with on-demand chunked reads, offline pins and per-Space sync."
+    },
+    {
       "name": "Cloud Drive Mount",
       "category": "Apps",
       "subcategory": "System Utilities",
