@@ -85,6 +85,13 @@
       "description": "A native command palette for Hyprland and Omarchy, a Raycast alternative for Linux."
     },
     {
+      "name": "Elaris",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/elarisbrowser/elaris",
+      "description": "An early cross-platform browser shell that opens a native window with an editable address bar and an empty content area."
+    },
+    {
       "name": "Grim",
       "category": "Apps",
       "subcategory": "Productivity",
