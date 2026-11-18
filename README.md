@@ -23,8 +23,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/hex"><img src="https://raw.githubusercontent.com/anomalyco/hex/dev/.github/assets/hex-icon.png" width="96" height="96" alt=""></a><br>
 <a href="https://github.com/anomalyco/hex"><b>Hex</b></a><br>
-<img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.3k stars"> <b>7.3k</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=6703da061646" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.4k stars"> <b>7.4k</b><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=9a3103f43e97" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v3.4.0</code> 7d ago</sub><br>
 <sub>Local voice dictation for macOS, Windows and Linux.</sub>
 </td>
@@ -38,7 +38,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/deadbolt"><img src="https://raw.githubusercontent.com/anomalyco/deadbolt/dev/extension/static/icons/icon-128.png" width="96" height="96" alt=""></a><br>
 <a href="https://github.com/anomalyco/deadbolt"><b>Deadbolt</b></a><br>
-<img src="assets/stars/star-silver.png" height="32" align="middle" alt="338 stars"> <b>338</b><br>
+<img src="assets/stars/star-silver.png" height="32" align="middle" alt="367 stars"> <b>367</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/deadbolt.png?v=5fd699657acf" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>A decentralized password manager: devices sync directly over iroh and join by pairing, with no accounts or servers.</sub>
 </td>
@@ -80,7 +80,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/moonframehq/moonframe"><img src="https://raw.githubusercontent.com/moonframehq/moonframe/main/assets/icon.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/moonframehq/moonframe"><b>Moonframe</b></a><br>
-<img src="assets/stars/star-silver.png" height="32" align="middle" alt="117 stars"> <b>117</b><br>
+<img src="assets/stars/star-silver.png" height="32" align="middle" alt="118 stars"> <b>118</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/moonframe.png?v=28db2bd05778" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v1.3.0</code> today</sub><br>
 <sub>A native desktop app factory for malleable Rust and Luau apps that you or an agent reshape while they run, drawn with GPUI in releases and with an experimental Rune renderer from source.</sub>
@@ -89,7 +89,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/no-phux/phux/tree/main/clients/rune"><img src="https://raw.githubusercontent.com/no-phux/phux/main/docs/assets/fox-mark.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/no-phux/phux/tree/main/clients/rune"><b>phux</b></a><br>
 <img src="assets/stars/star-rose.png" height="32" align="middle" alt="23 stars"> <b>23</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/phux.png?v=8ec973f40a63" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/phux.png?v=4d921de21299" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v0.158.0</code> today</sub><br>
 <sub>Alpha desktop client for phux, a terminal multiplexer whose server you can drive from code and that tracks which panes run a coding agent.</sub>
 </td>
@@ -98,7 +98,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/mweinbach/prime-agent-ui"><b>Prime Agent Desktop</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="2 stars"> <b>2</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/prime-agent-desktop.png?v=48901c604a05" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>desktop-v0.11.0</code> 11d ago</sub><br>
+<sub><code>desktop-v0.11.0</code> 12d ago</sub><br>
 <sub>Unofficial desktop client for Prime Agent that shares the CLI&#x27;s daemon, saved chats and provider credentials.</sub>
 </td>
 </tr>
@@ -108,13 +108,13 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/gooonzick/prism"><b>Prism</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="2 stars"> <b>2</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/prism.png?v=748bd05d0177" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.2.0</code> 6d ago</sub><br>
+<sub><code>v0.2.0</code> 7d ago</sub><br>
 <sub>A native macOS and Linux app, plus the prism CLI, that manages agent skills and MCP servers across Claude Code, Cursor, Codex and other agents, including on machines reached over ssh.</sub>
 </td>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/shuv1337/rex-rune"><img src="https://raw.githubusercontent.com/shuv1337/rex-rune/master/resources/icons/128x128/apps/dev.shuv.rex-linux.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/shuv1337/rex-rune"><b>Rex for Linux</b></a><br>
-<img src="assets/stars/star-rose.png" height="32" align="middle" alt="68 stars"> <b>68</b><br>
+<img src="assets/stars/star-rose.png" height="32" align="middle" alt="69 stars"> <b>69</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rex-for-linux.png?v=88fd01796180" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v0.10.1</code> 3d ago</sub><br>
 <sub>Unofficial native Linux client for Rex, the terminal multiplexer from Superlogical.</sub>
@@ -136,7 +136,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/deadbolt"><img src="https://raw.githubusercontent.com/anomalyco/deadbolt/dev/extension/static/icons/icon-128.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/deadbolt"><b>Deadbolt</b></a><br>
-<img src="assets/stars/star-silver.png" height="32" align="middle" alt="338 stars"> <b>338</b><br>
+<img src="assets/stars/star-silver.png" height="32" align="middle" alt="367 stars"> <b>367</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/deadbolt.png?v=5fd699657acf" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>A decentralized password manager: devices sync directly over iroh and join by pairing, with no accounts or servers.</sub>
 </td>
@@ -150,8 +150,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/elarisbrowser/elaris"><img src="https://github.com/elarisbrowser.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/elarisbrowser/elaris"><b>Elaris</b></a><br>
-<img src="assets/stars/star-silver.png" height="32" align="middle" alt="203 stars"> <b>203</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/elaris.png?v=22bc796ffa22" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="assets/stars/star-silver.png" height="32" align="middle" alt="204 stars"> <b>204</b><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/elaris.png?v=066adbd270f7" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>An early cross-platform browser shell that opens a native window with an editable address bar and an empty content area.</sub>
 </td>
 </tr>
@@ -166,8 +166,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/hex"><img src="https://raw.githubusercontent.com/anomalyco/hex/dev/.github/assets/hex-icon.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/hex"><b>Hex</b></a><br>
-<img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.3k stars"> <b>7.3k</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=6703da061646" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.4k stars"> <b>7.4k</b><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=9a3103f43e97" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v3.4.0</code> 7d ago</sub><br>
 <sub>Local voice dictation for macOS, Windows and Linux.</sub>
 </td>
@@ -176,7 +176,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/mokmok-dev/koe"><b>koe</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="0 stars"> <b>0</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/koe.png?v=acbba9e6b7f3" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v2026.11.4</code> 2d ago</sub><br>
+<sub><code>v2026.11.4</code> 3d ago</sub><br>
 <sub>A privacy-first recorder with on-device transcription, system audio and microphone capture, and a menu bar HUD.</sub>
 </td>
 </tr>
@@ -186,15 +186,15 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/shiroyasha9/kotoba"><b>Kotoba</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="3 stars"> <b>3</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/kotoba.png?v=6c53987a8e95" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.5.3</code> 15d ago</sub><br>
+<sub><code>v0.5.3</code> 16d ago</sub><br>
 <sub>Native macOS menu bar dictation: tap a chord, speak, and the transcript is pasted in about a second.</sub>
 </td>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/raythurman2386/muninn"><img src="https://github.com/raythurman2386.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/raythurman2386/muninn"><b>Muninn</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="3 stars"> <b>3</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/muninn.png?v=2c94353c7fad" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.8.6</code> 2d ago</sub><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/muninn.png?v=bbff3d45ec0a" height="32" alt="Commits per day over the last 28 days"><br>
+<sub><code>v0.8.7</code> today</sub><br>
 <sub>A local-first Markdown notes app with wikilinks, a graph view and Omarchy theming.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -210,7 +210,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/bjarneo/quire/tree/main/desktop"><img src="https://raw.githubusercontent.com/bjarneo/quire/main/assets/brand/mark.svg" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/bjarneo/quire/tree/main/desktop"><b>Quire</b></a><br>
-<img src="assets/stars/star-rose.png" height="32" align="middle" alt="86 stars"> <b>86</b><br>
+<img src="assets/stars/star-rose.png" height="32" align="middle" alt="87 stars"> <b>87</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/quire.png?v=07472bc0b48e" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v0.5.8</code> today</sub><br>
 <sub>A note editor for a plain folder of Markdown files, with a Rune desktop app and an Android app.</sub>
@@ -251,7 +251,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/Brendonovich/apps/tree/main/auxcord"><b>Auxcord</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="6 stars"> <b>6</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/auxcord.png?v=551a40e703ee" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.0.10</code> 25d ago</sub><br>
+<sub><code>v0.0.10</code> 26d ago</sub><br>
 <sub>Route audio between apps and devices on macOS, including a virtual device other apps can record from.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -265,7 +265,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/flicks"><img src="https://raw.githubusercontent.com/anomalyco/flicks/main/assets/brand/app-icon.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/flicks"><b>Flicks</b></a><br>
-<img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="8 stars"> <b>8</b><br>
+<img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="9 stars"> <b>9</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/flicks.png?v=72979c74d344" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>A lightweight Plex alternative: servers own your folders, and the app merges any number of them into one library. No account, nothing hosted.</sub>
 </td>
@@ -349,7 +349,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/Utility-Gods/wholeseek"><b>Wholeseek</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="0 stars"> <b>0</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/wholeseek.png?v=184ca6ef86e5" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.1.6</code> 2d ago</sub><br>
+<sub><code>v0.1.6</code> 3d ago</sub><br>
 <sub>A native Linux Soulseek client that plays a track while it downloads, and saves the file only if you keep it.</sub>
 </td>
 </tr>
@@ -403,7 +403,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/anomalyco/hokum"><b>Hokum</b></a><br>
 <img src="assets/stars/star-silver.png" height="32" align="middle" alt="258 stars"> <b>258</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hokum.png?v=ae9edc46fb53" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.1.3</code> 19d ago</sub><br>
+<sub><code>v0.1.3</code> 20d ago</sub><br>
 <sub>A Wayland control center for notifications, sound and Bluetooth, drawn with Rune.</sub>
 </td>
 </tr>
@@ -413,7 +413,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/ItsPotatoTime/Lyre/tree/main/rune-ui"><b>Lyre</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="4 stars"> <b>4</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/lyre.png?v=717fd385b421" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.3.6</code> today</sub><br>
+<sub><code>v0.3.6</code> 1d ago</sub><br>
 <sub>A file manager styled like Windows 11 Explorer for Linux and Windows.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -472,7 +472,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/RyanLatimer/carterai"><b>CarterAI</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="0 stars"> <b>0</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/carterai.png?v=aa19c6d674fe" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.1.0</code> 14d ago</sub><br>
+<sub><code>v0.1.0</code> 15d ago</sub><br>
 <sub>Minimal local GPT-2 chat for Apple Silicon with Metal inference and rune-kit components.</sub>
 </td>
 </tr>
@@ -491,7 +491,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/rune/tree/dev/crates/rune-kit"><img src="assets/rune-mark.svg" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/rune/tree/dev/crates/rune-kit"><b>rune-kit</b></a><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rune-kit.png?v=15a81b20c391" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rune-kit.png?v=4bbd07aab4ff" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>Official generic, themable components that read only semantic tokens, with the names and variants of `@opencode/ui`.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -560,7 +560,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/rune/blob/dev/crates/rune/README.md"><img src="assets/rune-mark.svg" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/rune/blob/dev/crates/rune/README.md"><b>Rune documentation</b></a><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rune-documentation.png?v=7168db173921" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rune-documentation.png?v=9b7d1d6da04f" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>The official guide to Rune&#x27;s elements, layout, input, motion and headless testing.</sub>
 </td>
 <td align="center" valign="top" width="33%">
