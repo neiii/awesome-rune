@@ -312,6 +312,13 @@
       "description": "A Wayland control center for notifications, sound and Bluetooth, drawn with Rune."
     },
     {
+      "name": "LobbyLocker",
+      "category": "Apps",
+      "subcategory": "System Utilities",
+      "url": "https://github.com/its4lion/LobbyLocker",
+      "description": "A beta game server region blocker for Windows 11 and Linux: block unwanted servers for CS2, Deadlock, Overwatch 2, Dead by Daylight, Rocket League (beta), or a custom game."
+    },
+    {
       "name": "Lyre",
       "category": "Apps",
       "subcategory": "System Utilities",
