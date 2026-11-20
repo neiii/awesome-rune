@@ -24,7 +24,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/anomalyco/hex"><img src="https://raw.githubusercontent.com/anomalyco/hex/dev/.github/assets/hex-icon.png" width="96" height="96" alt=""></a><br>
 <a href="https://github.com/anomalyco/hex"><b>Hex</b></a><br>
 <img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.7k stars"> <b>7.7k</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=b313fb3b2121" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=21f026ac7ec9" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v3.4.0</code> 9d ago</sub><br>
 <sub>Local voice dictation for macOS, Windows and Linux.</sub>
 </td>
@@ -151,7 +151,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/elarisbrowser/elaris"><img src="https://github.com/elarisbrowser.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/elarisbrowser/elaris"><b>Elaris</b></a><br>
 <img src="assets/stars/star-silver.png" height="32" align="middle" alt="205 stars"> <b>205</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/elaris.png?v=084d29900eb1" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/elaris.png?v=f4846f10a35b" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>An early cross-platform browser shell that opens a native window with an editable address bar and an empty content area.</sub>
 </td>
 </tr>
@@ -167,7 +167,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/anomalyco/hex"><img src="https://raw.githubusercontent.com/anomalyco/hex/dev/.github/assets/hex-icon.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/hex"><b>Hex</b></a><br>
 <img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.7k stars"> <b>7.7k</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=b313fb3b2121" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=21f026ac7ec9" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v3.4.0</code> 9d ago</sub><br>
 <sub>Local voice dictation for macOS, Windows and Linux.</sub>
 </td>
