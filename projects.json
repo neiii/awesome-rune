@@ -24,6 +24,13 @@
       "description": "An experimental native macOS and Windows inspector that runs a local relay in front of TypeSafe API traffic to inspect requests, responses and Jev answers."
     },
     {
+      "name": "layeredgit",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/jer-k/layeredgit",
+      "description": "A local macOS Git viewer that shows committed changes and uncommitted edits together in one diff, so you can review a branch without pushing."
+    },
+    {
       "name": "Moonframe",
       "category": "Apps",
       "subcategory": "Developer Tools",
