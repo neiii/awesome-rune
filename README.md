@@ -23,7 +23,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/hex"><img src="https://raw.githubusercontent.com/anomalyco/hex/dev/.github/assets/hex-icon.png" width="96" height="96" alt=""></a><br>
 <a href="https://github.com/anomalyco/hex"><b>Hex</b></a><br>
-<img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.8k stars"> <b>7.8k</b><br>
+<img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.9k stars"> <b>7.9k</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=1b3656e7028c" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v3.4.0</code> 10d ago</sub><br>
 <sub>Local voice dictation for macOS, Windows and Linux.</sub>
@@ -96,7 +96,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/no-phux/phux/tree/main/clients/rune"><img src="https://raw.githubusercontent.com/no-phux/phux/main/docs/assets/fox-mark.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/no-phux/phux/tree/main/clients/rune"><b>phux</b></a><br>
 <img src="assets/stars/star-rose.png" height="32" align="middle" alt="23 stars"> <b>23</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/phux.png?v=06a5886c3349" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/phux.png?v=562054b1ae18" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v0.161.1</code> today</sub><br>
 <sub>Alpha desktop client for phux, a terminal multiplexer whose server you can drive from code and that tracks which panes run a coding agent.</sub>
 </td>
@@ -107,7 +107,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/mweinbach/prime-agent-ui"><b>Prime Agent Desktop</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="2 stars"> <b>2</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/prime-agent-desktop.png?v=6f7b5892396b" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>desktop-v0.11.0</code> 14d ago</sub><br>
+<sub><code>desktop-v0.11.0</code> 15d ago</sub><br>
 <sub>Unofficial desktop client for Prime Agent that shares the CLI&#x27;s daemon, saved chats and provider credentials.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -169,8 +169,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/elarisbrowser/elaris"><img src="https://github.com/elarisbrowser.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/elarisbrowser/elaris"><b>Elaris</b></a><br>
-<img src="assets/stars/star-silver.png" height="32" align="middle" alt="205 stars"> <b>205</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/elaris.png?v=353cbe8a1baa" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="assets/stars/star-silver.png" height="32" align="middle" alt="206 stars"> <b>206</b><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/elaris.png?v=62185d44ba37" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>An early cross-platform browser shell that opens a native window with an editable address bar and an empty content area.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -183,7 +183,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/hex"><img src="https://raw.githubusercontent.com/anomalyco/hex/dev/.github/assets/hex-icon.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/hex"><b>Hex</b></a><br>
-<img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.8k stars"> <b>7.8k</b><br>
+<img src="assets/stars/star-gold.png" height="32" align="middle" alt="7.9k stars"> <b>7.9k</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/hex.png?v=1b3656e7028c" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v3.4.0</code> 10d ago</sub><br>
 <sub>Local voice dictation for macOS, Windows and Linux.</sub>
@@ -203,7 +203,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/shiroyasha9/kotoba"><b>Kotoba</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="3 stars"> <b>3</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/kotoba.png?v=91f6c38d5c41" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.5.3</code> 18d ago</sub><br>
+<sub><code>v0.5.3</code> 19d ago</sub><br>
 <sub>Native macOS menu bar dictation: tap a chord, speak, and the transcript is pasted in about a second.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -221,7 +221,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/cris7ian/polish"><b>Polish</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="0 stars"> <b>0</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/polish.png?v=0ea3225f28a4" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v1.3.0</code> today</sub><br>
+<sub><code>v1.3.0</code> 1d ago</sub><br>
 <sub>A small macOS writing app: select text, click a button, and an OpenAI model tidies it. Installs via Homebrew (cris7ian/tap/polish).</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -315,7 +315,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/lifk/Runefin"><img src="https://raw.githubusercontent.com/lifk/Runefin/main/Assets/Icon.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/lifk/Runefin"><b>Runefin</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="2 stars"> <b>2</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/runefin.png?v=4841405e8a4a" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/runefin.png?v=fd470b489ceb" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v0.2.2</code> today</sub><br>
 <sub>Unofficial Jellyfin client with a desktop and a 10-foot TV layout, a zero-copy GStreamer player and Live TV.</sub>
 </td>
@@ -438,7 +438,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/ItsPotatoTime/Lyre/tree/main/rune-ui"><b>Lyre</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="4 stars"> <b>4</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/lyre.png?v=c6633570e817" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.3.6</code> 3d ago</sub><br>
+<sub><code>v0.3.6</code> 4d ago</sub><br>
 <sub>A file manager styled like Windows 11 Explorer for Linux and Windows.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -497,7 +497,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/RyanLatimer/carterai"><b>CarterAI</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="0 stars"> <b>0</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/carterai.png?v=d51a8634a325" height="32" alt="Commits per day over the last 28 days"><br>
-<sub><code>v0.1.0</code> 17d ago</sub><br>
+<sub><code>v0.1.0</code> 18d ago</sub><br>
 <sub>Minimal local GPT-2 chat for Apple Silicon with Metal inference and rune-kit components.</sub>
 </td>
 </tr>
