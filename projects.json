@@ -78,6 +78,13 @@
       "description": "A decentralized password manager: devices sync directly over iroh and join by pairing, with no accounts or servers."
     },
     {
+      "name": "dullview",
+      "category": "Apps",
+      "subcategory": "Productivity",
+      "url": "https://github.com/vangheem/dullview",
+      "description": "A folder of Markdown files as a slide deck, with templates, PowerPoint template import and live reload. Prebuilt for macOS and Linux x86_64."
+    },
+    {
       "name": "EchoSpot",
       "category": "Apps",
       "subcategory": "Productivity",
