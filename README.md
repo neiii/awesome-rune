@@ -150,12 +150,22 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <sub>A decentralized password manager: devices sync directly over iroh and join by pairing, with no accounts or servers.</sub>
 </td>
 <td align="center" valign="top" width="33%">
+<a href="https://github.com/vangheem/dullview"><img src="https://github.com/vangheem.png?size=128" width="56" height="56" alt=""></a><br>
+<a href="https://github.com/vangheem/dullview"><b>dullview</b></a><br>
+<img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="0 stars"> <b>0</b><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/dullview.png?v=af3002a04c68" height="32" alt="Commits per day over the last 28 days"><br>
+<sub><code>v0.1.0</code> 1d ago</sub><br>
+<sub>A folder of Markdown files as a slide deck, with templates, PowerPoint template import and live reload. Prebuilt for macOS and Linux x86_64.</sub>
+</td>
+<td align="center" valign="top" width="33%">
 <a href="https://github.com/adityavardhansharma/EchoSpot"><img src="https://github.com/adityavardhansharma.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/adityavardhansharma/EchoSpot"><b>EchoSpot</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="0 stars"> <b>0</b><br>
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/echospot.png?v=a75a6b7f972e" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>A native command palette for Hyprland and Omarchy, a Raycast alternative for Linux.</sub>
 </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/elarisbrowser/elaris"><img src="https://github.com/elarisbrowser.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/elarisbrowser/elaris"><b>Elaris</b></a><br>
@@ -163,8 +173,6 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/elaris.png?v=353cbe8a1baa" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>An early cross-platform browser shell that opens a native window with an editable address bar and an empty content area.</sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/grim"><img src="https://raw.githubusercontent.com/anomalyco/grim/main/assets/icon/grim-icon-mac-1024.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/grim"><b>Grim</b></a><br>
@@ -180,6 +188,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <sub><code>v3.4.0</code> 10d ago</sub><br>
 <sub>Local voice dictation for macOS, Windows and Linux.</sub>
 </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/mokmok-dev/koe"><img src="https://github.com/mokmok-dev.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/mokmok-dev/koe"><b>koe</b></a><br>
@@ -188,8 +198,6 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <sub><code>v2026.11.4</code> 6d ago</sub><br>
 <sub>A privacy-first recorder with on-device transcription, system audio and microphone capture, and a menu bar HUD.</sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/shiroyasha9/kotoba"><img src="https://raw.githubusercontent.com/shiroyasha9/kotoba/main/design/icon/source/app-icon-dark.svg" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/shiroyasha9/kotoba"><b>Kotoba</b></a><br>
@@ -206,6 +214,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <sub><code>v0.9.1</code> today</sub><br>
 <sub>A local-first Markdown notes app with wikilinks, a graph view and Omarchy theming.</sub>
 </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/cris7ian/polish"><img src="https://raw.githubusercontent.com/cris7ian/polish/main/assets/polish-logo.svg" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/cris7ian/polish"><b>Polish</b></a><br>
@@ -214,8 +224,6 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <sub><code>v1.3.0</code> today</sub><br>
 <sub>A small macOS writing app: select text, click a button, and an OpenAI model tidies it. Installs via Homebrew (cris7ian/tap/polish).</sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/bjarneo/quire/tree/main/desktop"><img src="https://raw.githubusercontent.com/bjarneo/quire/main/assets/brand/mark.svg" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/bjarneo/quire/tree/main/desktop"><b>Quire</b></a><br>
@@ -231,6 +239,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/rusty-pencil.png?v=1b225141f20d" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>A cosy, hand-drawn, local-first whiteboard in the spirit of Excalidraw.</sub>
 </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/duketopceo/WordInk"><img src="https://github.com/duketopceo.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/duketopceo/WordInk"><b>WordInk</b></a><br>
@@ -239,8 +249,6 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <sub><code>desktop-v1.0.2</code> 13d ago</sub><br>
 <sub>AI-powered speech-to-text using Groq&#x27;s API, a Wispr Flow alternative.</sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/0xQuerencia/x"><img src="https://github.com/0xQuerencia.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/0xQuerencia/x"><b>X</b></a><br>
