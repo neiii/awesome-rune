@@ -258,6 +258,14 @@
       "description": "Desktop app that downloads Spotify playlists, albums and tracks as mp3 from Soulseek, with YouTube Music for the gaps and a local service for Mixxx progressive playback."
     },
     {
+      "name": "stereo",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/caulifluoride/stereo",
+      "image": "https://raw.githubusercontent.com/caulifluoride/stereo/master/assets/stereo.svg",
+      "description": "A music player in the spirit of the old iTunes, with Party Shuffle and other niceties."
+    },
+    {
       "name": "stremio-rune",
       "category": "Apps",
       "subcategory": "Media",
