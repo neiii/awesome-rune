@@ -17,6 +17,13 @@
       "description": "A desktop website crawler for SEO audits of one host's titles, meta descriptions, headings, response codes, canonicals, images and links."
     },
     {
+      "name": "Collate",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/Dishant1804/Collate",
+      "description": "A lightweight git diff viewer for macOS and Linux that shows diffs, pull requests and issues, with a repository map and an agent that can make changes."
+    },
+    {
       "name": "Jev Inspector",
       "category": "Apps",
       "subcategory": "Developer Tools",
@@ -68,6 +75,13 @@
       "url": "https://github.com/shuv1337/rex-rune",
       "image": "https://raw.githubusercontent.com/shuv1337/rex-rune/master/resources/icons/128x128/apps/dev.shuv.rex-linux.png",
       "description": "Unofficial native Linux client for Rex, the terminal multiplexer from Superlogical."
+    },
+    {
+      "name": "softphone-use",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/voxtellai/softphone-use",
+      "description": "A SIP softphone for macOS, Linux and Windows that coding agents control through an HTTP API or an MCP server, with a native window for calls, SIP traces and transcripts of agent calls."
     },
     {
       "name": "t3code-desktop-rune",
