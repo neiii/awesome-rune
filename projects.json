@@ -226,6 +226,13 @@
       "description": "A TouchDesigner-style realtime node-based visual programming environment."
     },
     {
+      "name": "Hexframe",
+      "category": "Apps",
+      "subcategory": "Media",
+      "url": "https://github.com/andresmarpz/hexframe/tree/main/crates/app",
+      "description": "Early preview of an automatic League of Legends recorder for Windows 10 2004 or newer, with death review, clips and an event timeline."
+    },
+    {
       "name": "Nightjar",
       "category": "Apps",
       "subcategory": "Media",
