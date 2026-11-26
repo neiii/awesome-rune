@@ -46,6 +46,13 @@
       "description": "A native desktop app factory for malleable Rust and Luau apps that you or an agent reshape while they run, drawn with GPUI in releases and with an experimental Rune renderer from source."
     },
     {
+      "name": "OpenCode (Rune)",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/anomalyco/opencode-rune",
+      "description": "The native Rune desktop app for OpenCode on macOS, Windows and Linux, and in the browser over WebGPU, plus session crates you can embed in other Rune apps. Published desktop builds are the dev channel, and there is no stable release."
+    },
+    {
       "name": "phux",
       "category": "Apps",
       "subcategory": "Developer Tools",
@@ -75,6 +82,13 @@
       "url": "https://github.com/shuv1337/rex-rune",
       "image": "https://raw.githubusercontent.com/shuv1337/rex-rune/master/resources/icons/128x128/apps/dev.shuv.rex-linux.png",
       "description": "Unofficial native Linux client for Rex, the terminal multiplexer from Superlogical."
+    },
+    {
+      "name": "rune-term",
+      "category": "Apps",
+      "subcategory": "Developer Tools",
+      "url": "https://github.com/lu-zero/rune-term",
+      "description": "A terminal emulator built on Rune over librio, with tabs, splits, search and scrollback. The app is not published yet."
     },
     {
       "name": "softphone-use",
@@ -398,6 +412,14 @@
       "url": "https://github.com/nicognaW/runesweeper",
       "image": "https://raw.githubusercontent.com/nicognaW/runesweeper/main/assets/icon.png",
       "description": "Minesweeper with the rules and quirks of the Windows classic, drawn with springs, ripples, liquid-metal chrome, fire and shockwaves."
+    },
+    {
+      "name": "Sigil",
+      "category": "Apps",
+      "subcategory": "Games",
+      "url": "https://github.com/superuserkalo/sigil/tree/main/rust/crates/desktop",
+      "image": "https://raw.githubusercontent.com/superuserkalo/sigil/main/rust/crates/desktop/assets/brand/app-icon.png",
+      "description": "A free, open-source mod manager and launcher for Deadlock. Windows is the main platform; Linux and macOS builds are unsigned and not verified with a real game install."
     },
     {
       "name": "CarterAI",
