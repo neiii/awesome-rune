@@ -105,8 +105,8 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/anomalyco/opencode-rune"><img src="https://github.com/anomalyco.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/anomalyco/opencode-rune"><b>OpenCode (Rune)</b></a><br>
-<img src="assets/stars/star-rose.png" height="32" align="middle" alt="41 stars"> <b>41</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/opencode-rune.png?v=fa83cd798c3b" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="assets/stars/star-rose.png" height="32" align="middle" alt="42 stars"> <b>42</b><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/opencode-rune.png?v=527bf9ea4401" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v0.0.0-dev-494</code> today</sub><br>
 <sub>The native Rune desktop app for OpenCode on macOS, Windows and Linux, and in the browser over WebGPU, plus session crates you can embed in other Rune apps. Published desktop builds are the dev channel, and there is no stable release.</sub>
 </td>
@@ -203,7 +203,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/elarisbrowser/elaris"><img src="https://github.com/elarisbrowser.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/elarisbrowser/elaris"><b>Elaris</b></a><br>
 <img src="assets/stars/star-silver.png" height="32" align="middle" alt="227 stars"> <b>227</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/elaris.png?v=9d99c0e728cf" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/elaris.png?v=aeffa85ad3ad" height="32" alt="Commits per day over the last 28 days"><br>
 <sub>An early cross-platform browser shell that opens a native window with an editable address bar and an empty content area.</sub>
 </td>
 <td align="center" valign="top" width="33%">
@@ -243,7 +243,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/raythurman2386/muninn"><img src="https://github.com/raythurman2386.png?size=128" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/raythurman2386/muninn"><b>Muninn</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="7 stars"> <b>7</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/muninn.png?v=8ecc5aa61f23" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/muninn.png?v=915f557c6b83" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v0.11.5</code> today</sub><br>
 <sub>A local-first Markdown notes app with wikilinks, a graph view and Omarchy theming.</sub>
 </td>
@@ -348,7 +348,7 @@ A curated list of projects built with or for [Rune](https://github.com/anomalyco
 <a href="https://github.com/lifk/Runefin"><img src="https://raw.githubusercontent.com/lifk/Runefin/main/Assets/Icon.png" width="56" height="56" alt=""></a><br>
 <a href="https://github.com/lifk/Runefin"><b>Runefin</b></a><br>
 <img src="assets/stars/star-gunmetal.png" height="32" align="middle" alt="2 stars"> <b>2</b><br>
-<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/runefin.png?v=f0beb31b9fd4" height="32" alt="Commits per day over the last 28 days"><br>
+<img src="https://raw.githubusercontent.com/neiii/awesome-rune/assets/charts/runefin.png?v=2e7512869a01" height="32" alt="Commits per day over the last 28 days"><br>
 <sub><code>v0.3.2</code> 1d ago</sub><br>
 <sub>Unofficial Jellyfin client with a desktop and a 10-foot TV layout, a zero-copy GStreamer player and Live TV.</sub>
 </td>
